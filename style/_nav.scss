@@ -1,0 +1,14 @@
+nav {
+    li {
+        display: inline;
+        list-style: none;      
+        padding: 10%;
+        line-height: 50px;
+        &:hover {
+            font-weight: bold;
+            transition: all .5s ease;
+        }
+        }
+        
+        
+    }

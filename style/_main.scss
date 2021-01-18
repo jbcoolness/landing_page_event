@@ -1,3 +1,49 @@
-.container {
+
+.container {    
     background-color: $bg-color;
+}
+h1, h3 {
+    padding: 20px;
+}
+p {
+    margin: 20px;
+    
+}
+
+input, button {
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-left {
+    @extend %box-left;    
+    
+}
+
+.container-speacher {
+    .image {                
+        float: left;
+        width: 20%;
+        //margin: 20px;
+        
+    }
+    .description-speacher{
+        display: inline-block;
+        width: 50%;
+        //margin: 10%;
+    }
+}
+
+
+.container-rigth {    
+    display: inline-block;
+    //height: 500px;
+    width: 30%;
+
+    form {
+        input{
+            width: 100%;
+            display: block;    
+        }
+    }
 }

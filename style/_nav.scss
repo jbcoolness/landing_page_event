@@ -1,13 +1,18 @@
 nav {
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    
     li {
-        display: inline;
-        list-style: none;      
-        padding: 10%;
-        line-height: 50px;
-        &:hover {
-            font-weight: bold;
-            transition: all .5s ease;
-        }
+        display: inline-block;        
+        list-style: none;
+        line-height: 60px;        
+    }
+        a {
+            font-size: 20px;            
+            text-decoration: none;
+            margin-left: 40px;
+            margin-right: 60px;
         }
         
         

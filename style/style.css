@@ -1,3 +1,8 @@
+.container-left {
+  float: left;
+  width: 60%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,24 +15,75 @@ body {
 }
 
 header {
+  width: 100%;
   height: 300px;
   background-image: url("../img/event.jpg");
+  top: 5px;
+}
+
+nav {
+  padding-left: 20%;
+  padding-right: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   list-style: none;
-  padding: 10%;
-  line-height: 50px;
+  line-height: 60px;
 }
 
-nav li:hover {
-  font-weight: bold;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 60px;
 }
 
 .container {
   background-color: #91a7b6;
+}
+
+h1, h3 {
+  padding: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+input, button {
+  padding: 20px;
+  margin: 20px;
+}
+
+.container-speacher .image {
+  float: left;
+  width: 20%;
+}
+
+.container-speacher .description-speacher {
+  display: inline-block;
+  width: 50%;
+}
+
+.container-rigth {
+  display: inline-block;
+  width: 30%;
+}
+
+.container-rigth form input {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  width: 100%;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
